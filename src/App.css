@@ -5,6 +5,7 @@
 body {
   margin: auto;
   font-family: 'Inter', sans-serif;
+  margin-top: 100px;
 }
 
 nav {
@@ -51,3 +52,42 @@ nav h3 {
   border-left: 0;
   border-bottom: 0;
 }
+
+section {
+  margin: auto;
+  margin-left: 180px;
+  margin-right: 15px;
+}
+
+.section {
+  display: flex;
+}
+
+.section--heading {
+  margin-left: 3%;
+}
+
+.card img {
+  margin-left: 3px;
+  width: 100px;
+}
+
+.card {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px;
+  padding: 5px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 5px 5px;
+}
+
+.card h5, .card p {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.card p {
+  font-size: 13px;
+}
+
