@@ -1,7 +1,7 @@
 {
   "name": "read_view",
   "version": "0.1.0",
-  "homepage": "https://8xNehanSS.github.io/read_view-online",
+  "homepage": "https://8xnehanss.github.io/read_view-online",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
