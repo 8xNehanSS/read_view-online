@@ -35,6 +35,22 @@ nav h3 {
   padding: 0px 20px;
 }
 
+nav h3 {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+nav h3:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .options {
   position: fixed;
   width: 150px;
@@ -115,4 +131,38 @@ section {
   border-radius: 5px;
   border: 1px solid grey;
   margin-top: 20px;
+}
+
+.login,
+.signup {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login--form,
+.signup--form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login--form input,
+.signup--form input {
+  width: 50%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  text-indent: 10px;
+}
+
+.login--form button,
+.signup--form button {
+  width: 10%;
+  height: 30px;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 10px;
 }
