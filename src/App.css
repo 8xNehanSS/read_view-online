@@ -4,7 +4,7 @@
 
 body {
   margin: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 100px;
 }
 
@@ -54,13 +54,16 @@ nav h3 {
 }
 
 section {
-  margin: auto;
-  margin-left: 180px;
-  margin-right: 15px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .section {
+  margin-top: 30px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .section--heading {
@@ -68,11 +71,11 @@ section {
 }
 
 .card img {
-  margin-left: 3px;
   width: 100px;
 }
 
 .card {
+  text-align: center;
   width: 150px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -82,7 +85,8 @@ section {
   box-shadow: 0px 0px 5px 5px;
 }
 
-.card h5, .card p {
+.card h5,
+.card p {
   text-align: center;
   text-overflow: ellipsis;
 }
@@ -90,4 +94,25 @@ section {
 .card p {
   font-size: 13px;
 }
+.search-bar {
+  margin-left: 100px;
+  text-align: center;
+}
 
+.search-bar input {
+  text-indent: 10px;
+  width: 50%;
+  font-size: medium;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.search-bar button {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 20px;
+}
