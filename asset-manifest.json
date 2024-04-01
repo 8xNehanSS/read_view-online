@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/read_view-online/static/css/main.9d469a1c.css",
+    "main.js": "/read_view-online/static/js/main.c822459f.js",
+    "index.html": "/read_view-online/index.html",
+    "main.9d469a1c.css.map": "/read_view-online/static/css/main.9d469a1c.css.map",
+    "main.c822459f.js.map": "/read_view-online/static/js/main.c822459f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d469a1c.css",
+    "static/js/main.c822459f.js"
+  ]
+}
