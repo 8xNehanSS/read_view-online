@@ -5,7 +5,7 @@ import Section from "./components/Section";
 import SearchBar from "./components/SearchBar";
 
 function App() {
-  const [selectedGenre, setSelectedGenre] = useState(null);
+  const [selectedGenre, setSelectedGenre] = useState("fiction");
   const [searchTerm, setSearchTerm] = useState(null);
   const [books, setBooks] = useState([]);
 
