@@ -27,7 +27,7 @@ function App() {
   const randomGenre = getRandomGenre(genres);
 
   useEffect(() => {
-    if (!selectedGenre) {
+    if (searchTerm === "") {
       setSelectedGenre(randomGenre);
     }
     var apiURL = `https://www.googleapis.com/books/v1/volumes?q=${selectedGenre}+subject:${selectedGenre}&maxResults=20&key=AIzaSyB9Ah9vg2wy5M5_KnicIa-QNBU_sdpjHS8`;
